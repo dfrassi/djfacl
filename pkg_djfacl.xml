@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.7">
+    	<name>pkg_djfacl</name>
+	<packagename>djfacl</packagename>
+    	<version>1.7.0</version>
+    	<url>http://www.joomla.org</url>
+    	<packager>David Frassi</packager>
+    	<packagerurl>http://joomlacode.org/gf/project/attachments/</packagerurl>
+    	<description>DJFACL_PACKAGE</description>
+    	<update>http://update.joomla.org/update/packages/everything</update>
+	<files folder="packages">
+		<file type="plugin" id="djflibraries" group="system">plg_djflibraries.zip</file>
+		<file type="plugin" id="djfintegrity" group="system">plg_djfintegrity.zip</file>
+		<file type="plugin" id="djfcontent" group="content">plg_djfcontent.zip</file>
+		<file type="plugin" id="djfacl" group="system">plg_djfacl.zip</file>
+		<file type="module" id="mod_djfacl" client="site">mod_djfacl.zip</file>
+		<file type="module" id="mod_djfacl_quickicon" client="administrator">mod_djfacl_quickicon.zip</file>
+		<file type="component" id="com_djfacl">com_djfacl.zip</file>		
+    	</files>
+</extension>
